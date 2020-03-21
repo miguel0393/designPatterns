@@ -1,6 +1,8 @@
-package visitor_pattern;
+package visitor_pattern.units;
 
-public class Marine {
+import visitor_pattern.visitor.Visitor;
+
+public class Marine implements Unit {
 
     private double health;
 
@@ -8,14 +10,17 @@ public class Marine {
         this.health = health;
     }
 
+    @Override
     public void accept(Visitor visitor) {
         visitor.VisitLight(this);
     }
 
+    @Override
     public double getHealth() {
-        return health;
+        return this.health;
     }
 
+    @Override
     public void setHealth(double health) {
         this.health = health;
     }
