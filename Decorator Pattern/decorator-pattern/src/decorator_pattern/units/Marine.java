@@ -1,4 +1,4 @@
-package decorator_pattern;
+package decorator_pattern.units;
 
 public class Marine implements Unit {
 

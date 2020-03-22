@@ -1,5 +1,10 @@
 package decorator_pattern;
 
+import decorator_pattern.decorator.ArmorUpgrade;
+import decorator_pattern.decorator.WeaponUpgrade;
+import decorator_pattern.units.Marine;
+import decorator_pattern.units.Unit;
+
 public class MainClass {
 
     public static void main(String[] args) {

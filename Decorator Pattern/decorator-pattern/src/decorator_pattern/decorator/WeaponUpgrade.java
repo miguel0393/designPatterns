@@ -1,4 +1,6 @@
-package decorator_pattern;
+package decorator_pattern.decorator;
+
+import decorator_pattern.units.Unit;
 
 public class WeaponUpgrade extends UnitDecorator {
 
